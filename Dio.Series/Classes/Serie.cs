@@ -50,5 +50,9 @@ namespace Dio.Series
             this.Excluido = true;
         }
 
+        public bool GetExcluido()
+        {
+            return this.Excluido;
+        }
     }
 }
